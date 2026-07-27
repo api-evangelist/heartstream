@@ -1,7 +1,26 @@
 aid: heartstream
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heartstream.png
 name: Heartstream
-description: Heartstream is a company surfaced as a portfolio company of mayfield and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Heartstream is an emergency-care and defibrillation brand, now part of
+  Philips, that makes automated external defibrillators (AEDs) and professional monitor/defibrillators
+  for public-access, home, and EMS use. The company originated as a Mayfield-backed
+  medical-device startup that pioneered automatic external defibrillators and was later
+  acquired by Hewlett-Packard; today the Heartstream name lives on across the HeartStart
+  AED and Tempus ALS product lines sold in more than 50 countries and regions. Its public
+  site publishes product support, a document center (instructions for use), and a newsroom,
+  but it exposes no public developer portal, API, or documentation surface, so there are
+  no API artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/heartstream/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,35 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-parent: philips
+x-api-provider: false
+x-enrichment-note: 'Historic Mayfield AED startup (acq. by HP); brand now a Philips emergency-care
+  product line. No public API, developer portal, or specs found on 2026-07-19 — identity
+  pass only, no API artifacts fabricated.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- Defibrillators
+- Emergency Care
+- Cardiac Care
+- Hardware
+- Philips
+common:
+- type: Website
+  url: https://www.heartstream.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
