@@ -34,7 +34,7 @@ x-api-provider: false
 x-enrichment-note: 'Historic Mayfield AED startup (acq. by HP); brand now a Philips emergency-care
   product line. No public API, developer portal, or specs found on 2026-07-19 — identity
   pass only, no API artifacts fabricated.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
