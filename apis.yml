@@ -58,6 +58,11 @@ tags:
 - Hardware
 - Philips
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/hewlett-packard/
+  name: Hewlett-Packard
+  x-relationship: acquired
+  x-evidence: "The company originated as a Mayfield-backed medical-device startup that pioneered automatic external defibrillators and was later acquired by Hewlett-Packard; today the Heartstream name lives on across the HeartStart AED and Tempus ALS prod"
 - type: Website
   url: https://www.heartstream.com
 apis: []
